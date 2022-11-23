@@ -1,2 +1,2 @@
-# Random_Quote-Generator
-Random quotes using the Quotable Api
+# Responsive Random quote generator
+
