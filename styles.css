@@ -1,0 +1,104 @@
+body{
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+/* font-family: 'Crimson Text', serif; */
+
+.container{
+    width:80%;
+    height: 50%;
+    background-color: aqua;
+    border-radius: 30px;
+    background-color: #21D4FD;
+     background-image: linear-gradient( 102.4deg,  rgba(253,189,85,1) 7.8%, rgba(249,131,255,1) 100.3% );;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.quote-container{
+    margin-top: auto;
+    width: 90%;
+    height: auto;
+    /* background-color: antiquewhite; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: cursive;
+    font-weight: 600;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+
+}
+.quote{
+    font-family: 'Crimson Text',serif;
+    font-weight: 400;
+    color: white;
+    font-size: 26px;
+}
+.author-NAME{
+    width: 90%;   
+    height: 100px;
+    /* background-color: blue; */
+    margin:0px auto 0px auto;
+    text-align:center;
+    font-family: 'Crimson Text', sans-serif;
+    font-weight:400;
+    font-size: 30px;
+}
+.btn{
+    width: 400px;
+    margin: 0px auto 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+}
+.btn:hover{
+    
+   transition: all 1000ms ease-in-out;
+   transform: translateY(-5px); 
+   background-image: linear-gradient( 102.4deg,  rgba(253,189,85,1) 7.8%, rgba(249,131,255,1) 100.3% );
+}
+
+
+
+@media only screen and  (max-width:768px) {
+    .quote{
+        font-family: 'Crimson Text',serif;
+        font-weight: 400;
+        color: white;
+        font-size: 16px;
+    }
+    .btn{
+        width: 30%;
+        font-size: 10px;
+        transition: all 1s;
+    }
+    .author-NAME{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    button.btn:hover{
+        background-image: black;
+        transform: rotateY(-9px);
+    }
+    
+    
+}
+
